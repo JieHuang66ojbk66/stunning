@@ -1,0 +1,25 @@
+es6    es5+新增加了一些内容  js标准
+
+
+net   jscript  js 浏览器
+netsecape js   ecma  ecma es6
+
+新增的内容
+    es6    目前浏览器不能100%支持es6
+      1.用支持度浏览器  firefox/google   node   babel-env
+  1.let  const
+      let 块作用域    全局  函数  不存在提升
+  2.字符串相关
+    1.includes
+    2.startWith/endWith
+    3.字符串模板
+    1.标签字符串
+     package.json
+      npm init:初始化json文件
+      cnpm i babel-cli  -D:安装babel-cli模块
+      cnpm i babel-preset-env  -D:安装abel-preset-env模块
+      配置文件 .babelrc里面的内容如下
+       {
+         “presets":["env"],
+         "plugins":""
+       }
